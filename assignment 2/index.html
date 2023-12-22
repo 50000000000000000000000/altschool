@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Assignment</title>
+  </head>
+  <body>
+    <section class="all">
+      <div class="bg">
+        <br />
+        <div class="logo">
+          <img src="./image/Logo.png" alt="" />
+          <!-- <img src="" alt="logo" /> -->
+        </div>
+        <br />
+        <div class="h1">
+          <div class="h1-text">For Individuals</div>
+        </div>
+
+        <p class="p-text">
+          Start benefiting from the wellness experience. For companies looking
+          on increasing productivity, and improving organization wellness.
+        </p>
+      </div>
+
+      <div class="box-bg">
+        <form action="./index.html" method="get" aria-label="from">
+          <!-- name -->
+          <div class="name">
+            <div class="first-name">
+              <label for="firstname">Firstname</label>
+              <input type="text" name="firstname" placeholder="Firstname" />
+            </div>
+
+            <div class="last-name">
+              <label for="lastname">lastname</label>
+              <input type="text" name="lastname" placeholder="Lastname" />
+            </div>
+          </div>
+          <!-- name end -->
+
+          <!-- gender and date of birth -->
+          <div class="id-data">
+            <div class="gender">
+              <label for="gender">Gender</label>
+              <select name="gender" place>
+                <option value="default" disabled selected>Select Gender</option>
+                <option value="male">male</option>
+                <option value="Female">Female</option>
+              </select>
+            </div>
+
+            <div class="Dfb">
+              <label for="date of Birth">Date of Birth</label>
+              <br />
+              <input type="date" name="date of Birth" />
+            </div>
+          </div>
+          <!-- gender and date of birth end -->
+
+          <!-- the height and weight -->
+          <div class="hi-wi">
+            <div class="weight">
+              <label for="weight">weight(kg)</label>
+              <input
+                type="number"
+                name="weight"
+                placeholder="Enter weight(kg) here"
+              />
+            </div>
+
+            <div class="height">
+              <label for="height">height(cm)</label>
+
+              <input
+                type="height"
+                name="height"
+                placeholder="Enter height(cm) here"
+              />
+            </div>
+          </div>
+          <!-- the height and weight end -->
+
+          <!-- activity level -->
+          <div class="activity">
+            <label for="activity level"> Activity Level</label>
+            <select class="activity-select" name="activity-level" place>
+              <option value="default" disabled selected>select level</option>
+              <option value="level-1">level-1</option>
+              <option value="level-2">level-2</option>
+              <option value="level-3">level-3</option>
+            </select>
+          </div>
+          <!-- activity level end -->
+
+          <!-- password -->
+          <div class="password">
+            <label for="password">Password</label>
+            <br />
+            <div class="flex">
+              <input id="input"
+                type="password"
+                name="password"
+                placeholder="Enter ur password here"
+              />
+              <img
+                class="see-pin"
+                src="./image/eye-icon.jpg"
+                alt="see ur paasword"
+              />
+            </div>
+          </div>
+          <!-- password end -->
+          <!-- register button -->
+          <button class="butn">register</button>
+
+          <!-- register button end  -->
+          <!-- register note -->
+          <div class="on-click">
+            <p class="text-wrapper">
+              By clicking Register, you agree to our
+              <a href="#">Terms <br id="out"> of Use</a>
+              <a href="#">and our</a>
+              <a href="#">Privacy Policy</a>
+            </p>
+          </div>
+          <!-- <span class="by-clicking"> </span> -->
+          <!-- register note end -->
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
